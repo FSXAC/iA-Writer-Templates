@@ -7,9 +7,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.example.template</string>
+	<string>com.fsxac.researcher.template</string>
 	<key>CFBundleName</key>
-	<string>Example</string>
+	<string>Researcher</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -21,16 +21,16 @@
 	<key>IATemplateFooterFile</key>
 	<string>footer</string>
 	<key>IATemplateFooterHeight</key>
-	<integer>50</integer>
+	<integer>60</integer>
 	<key>IATemplateHeaderFile</key>
 	<string>header</string>
 	<key>IATemplateHeaderHeight</key>
-	<integer>50</integer>
+	<integer>60</integer>
 	<key>IATemplateDescription</key>
-	<string>Example template.</string>
+	<string>Researcher template inspired by the Jekyll theme of the same name.</string>
 	<key>IATemplateAuthor</key>
-	<string>Example</string>
+	<string>Muchen He</string>
 	<key>IATemplateAuthorURL</key>
-	<string>https://example.com</string>
+	<string>https://muchen.ca</string>
 </dict>
 </plist>
