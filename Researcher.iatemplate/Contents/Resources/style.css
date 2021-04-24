@@ -47,6 +47,12 @@ blockquote {
     padding-left: 1em;
 }
 
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 2em 0;
+}
+
 .task-list-item {
     list-style-type: none;
 }
