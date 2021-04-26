@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    padding: 0 1.5em;
     font-size: 16;
     font-family: 'Inconsolata', monospace;
     max-width: 700px;
@@ -22,11 +23,21 @@ pre {
     min-height: 1rem;
     padding: .5rem 1rem;
     background-color: #f8f8f8;
+    overflow: scroll;
 }
 
 a {
     text-decoration: none;
     color: #ff0f00;
+    
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 a:hover {
@@ -43,7 +54,7 @@ img caption {
 }
 
 blockquote {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid #333;
     padding-left: 1em;
 }
 
@@ -111,5 +122,10 @@ hr {
         margin-left: 1in;
         margin-right: 1in;
         margin-top: 0;
+        padding: 0;
+    }
+
+    pre {
+        overflow-wrap: break-word;
     }
 }
