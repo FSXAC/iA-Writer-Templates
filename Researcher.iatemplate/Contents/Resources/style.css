@@ -49,8 +49,9 @@ img {
     height: auto;
 }
 
-img caption {
+figcaption {
     margin-top: 4px;
+    font-style: italic;
 }
 
 blockquote {
