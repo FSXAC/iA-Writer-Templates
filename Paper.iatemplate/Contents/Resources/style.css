@@ -127,6 +127,11 @@ hr {
     margin: .5rem auto;
 }
 
+iframe { 
+    display: block;
+    margin: 1em auto;
+}
+
 @media print {
     html {
         text-justify: inter-word;
@@ -143,5 +148,9 @@ hr {
 
     pre {
         overflow-wrap: break-word;
+    }
+
+    iframe {
+        display: none;
     }
 }

@@ -129,4 +129,8 @@ hr {
     pre {
         overflow-wrap: break-word;
     }
+
+    iframe {
+        display: none;
+    }
 }
