@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'Computer Modern';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/cmunrm.ttf');
+}
+
+@font-face {
+	font-family: 'Computer Modern';
+	font-style: italic;
+	font-weight: normal;
+	src: url('./fonts/cmunti.ttf');
+}
+
+@font-face {
+	font-family: 'Computer Modern';
+	font-style: normal;
+	font-weight: bold;
+	src: url('./fonts/cmunbx.ttf');
+}
+
+@font-face {
+	font-family: 'Computer Modern';
+	font-style: italic;
+	font-weight: bold;
+	src: url('./fonts/cmunbi.ttf');
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    padding: 0 1.5em;
+    font-size: 16;
+    font-family: 'Computer Modern';
+    font-variant-ligatures: normal;
+    max-width: 914px;
+    margin: auto;
+    text-align: justify;
+}
+
+pre {
+    min-height: 1rem;
+    padding: .5rem 0;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+a {
+    color: #2875d9;
+    
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    margin: .5rem auto;
+}
+
+blockquote {
+    border-left: 1px solid #333;
+    padding-left: 1em;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 2em 0;
+}
+
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -1.8em;
+    margin-right: 8px;
+}
+
+#main table {
+    table-layout: auto;
+    margin: 1em auto;
+    border-collapse: collapse;
+    /* width: 100%; */
+    padding: 0;
+}
+#main table tbody {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#main table tr {
+    margin: 0;
+    padding: 0;
+}
+#main table tr th {
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding: 2px 6px;
+}
+#main table tr td {
+    text-align: left;
+    margin: 0;
+    padding: 2px 6px;
+}
+#main table tr th :first-child, table tr td :first-child {
+    margin: 0;
+}
+#main table tr th :last-child, table tr td :last-child {
+    margin: 0;
+}
+#main table caption {
+    margin: .5rem auto;
+}
+
+@media print {
+    html {
+        text-justify: inter-word;
+        background: transparent !important;
+        font-size: 12px;
+    }
+
+    body {
+        margin-left: 1in;
+        margin-right: 1in;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    pre {
+        overflow-wrap: break-word;
+    }
+}
