@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 
-html {
-    background-color: white;
-}
+html { background-color: white; }
+html.night-mode { background-color: #111; color: #ccc; }
 
 body {
     padding: 0 1.5em;
@@ -108,9 +107,16 @@ hr {
 #main table tr th :last-child, table tr td :last-child {
     margin: 0;
 }
-
 #main table caption {
     margin-bottom: 4px;
+}
+.night-mode #main table tr { background: none; }
+.night-mode #main table tr:nth-child(2n) { background: none; }
+.night-mode #main table tr td, .night-mode #main table tr th { border: 1px solid #333; }
+
+iframe { 
+    display: block;
+    margin: 1em auto;
 }
 
 @media print {
@@ -126,11 +132,6 @@ hr {
         padding: 0;
     }
 
-    pre {
-        overflow-wrap: break-word;
-    }
-
-    iframe {
-        display: none;
-    }
+    pre { overflow-wrap: break-word; }
+    iframe { display: none; }
 }

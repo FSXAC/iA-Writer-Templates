@@ -26,9 +26,7 @@
 	src: url('./fonts/cmunbi.ttf');
 }
 
-html {
-    background-color: white;
-}
+html { background-color: white; }
 
 body {
     padding: 0 1.5em;
@@ -82,10 +80,7 @@ hr {
     margin: 2em 0;
 }
 
-.task-list-item {
-    list-style-type: none;
-}
-
+.task-list-item { list-style-type: none; }
 .task-list-item-checkbox {
     margin-left: -1.8em;
     margin-right: 8px;
@@ -95,7 +90,6 @@ hr {
     table-layout: auto;
     margin: 1em auto;
     border-collapse: collapse;
-    /* width: 100%; */
     padding: 0;
 }
 #main table tbody {
@@ -123,9 +117,7 @@ hr {
 #main table tr th :last-child, table tr td :last-child {
     margin: 0;
 }
-#main table caption {
-    margin: .5rem auto;
-}
+#main table caption { margin: .5rem auto; }
 
 iframe { 
     display: block;
