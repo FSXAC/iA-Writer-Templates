@@ -7,24 +7,30 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.ia.writer.template.github</string>
+	<string>com.fsxac.compakt.template</string>
 	<key>CFBundleName</key>
-	<string>GitHub</string>
+	<string>Compakt</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1</string>
+	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>1</string>
 	<key>IATemplateDocumentFile</key>
 	<string>document</string>
+	<key>IATemplateTitleFile</key>
+	<string>title</string>
+	<key>IATemplateFooterFile</key>
+	<string>footer</string>
 	<key>IATemplateFooterHeight</key>
-	<integer>90</integer>
+	<integer>60</integer>
+	<key>IATemplateHeaderFile</key>
+	<string>header</string>
 	<key>IATemplateHeaderHeight</key>
-	<integer>90</integer>
+	<integer>60</integer>
 	<key>IATemplateDescription</key>
-	<string>GitHub document style.</string>
+	<string>Derived from Github theme, but more compact</string>
 	<key>IATemplateAuthor</key>
-	<string>iA</string>
+	<string>Muchen He</string>
 	<key>IATemplateAuthorURL</key>
-	<string>https://github.com/</string>
+	<string>https://muchen.ca</string>
 </dict>
 </plist>
