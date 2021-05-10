@@ -62,7 +62,7 @@ a {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -141,7 +141,7 @@ iframe {
         margin-right: 1in;
         margin-top: 0;
         padding: 0;
-        font-size: 12px;
+        font-size: 24px;
     }
 
     pre { overflow-wrap: break-word; }
