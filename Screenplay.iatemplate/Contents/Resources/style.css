@@ -39,7 +39,7 @@ blockquote, p { margin-top: 0; }
 /* Parantheticals */
 h2 + p {
     text-transform: lowercase;
-    margin-left: 2.0in;
+    margin-left: 1.8in;
     margin-top: 0;
 }
 
