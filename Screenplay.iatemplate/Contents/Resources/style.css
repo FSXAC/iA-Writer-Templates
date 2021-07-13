@@ -2,18 +2,51 @@ html { background-color: white; }
 html.night-mode { background-color: #111; color: #ccc; }
 
 body {
-    padding: 0 1.5em;
-    font-size: 16;
+    font-size: 11pt;
     font-family: Courier, monospace;
-    max-width: 700px;
-    margin: auto;
-    text-align: justify;
+    font-weight: lighter;
+    margin-left: 1.5in;
+    margin-right: 1in;
+    max-width: 6in;
+    line-height: 1.1;
 }
 
-p code {
-    padding: 1px 3px;
-    background-color: #ff0f0030;
-    font-family: inherit;
+/* Slugline / scene header */
+h1, h2, h3 {
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+/* This is the dialog actor names */
+h2 {
+    margin-left: 2.0in;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+/* Dialogue */
+h2 + blockquote, h2 + p + blockquote {
+    margin-left: 1.0in;
+    max-width: 3in;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+blockquote, p { margin-top: 0; }
+
+/* Parantheticals */
+h2 + p {
+    text-transform: lowercase;
+    margin-left: 2.0in;
+    margin-top: 0;
+}
+
+/* Transition */
+h3 {
+    margin-left: 4.5in;
+    font-weight: normal;
 }
 
 pre {
@@ -50,11 +83,6 @@ img {
 figcaption {
     margin-top: 4px;
     font-style: italic;
-}
-
-blockquote {
-    margin-left: 2em;
-    margin-right: 2em;
 }
 
 hr {
@@ -120,17 +148,7 @@ iframe {
 
 @media print {
     html {
-        text-justify: inter-word;
         background: transparent !important;
-    }
-
-    body {
-        margin-left: 1in;
-        margin-right: 1in;
-        margin-top: 0;
         padding: 0;
     }
-
-    pre { overflow-wrap: break-word; }
-    iframe { display: none; }
 }
