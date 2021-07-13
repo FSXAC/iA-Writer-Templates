@@ -1,22 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-html { background-color: white; color: #222; }
+html { background-color: white; }
 html.night-mode { background-color: #111; color: #ccc; }
 
 body {
     padding: 0 1.5em;
     font-size: 16;
-    font-family: 'Open Sans', sans-serif;
-    max-width: 800px;
+    font-family: Courier, monospace;
+    max-width: 700px;
     margin: auto;
-    line-height: 1.24;
+    text-align: justify;
 }
 
 p code {
     padding: 1px 3px;
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
-    border-radius: .25rem;
+    background-color: #ff0f0030;
+    font-family: inherit;
 }
 
 pre {
@@ -24,24 +21,11 @@ pre {
     padding: .5rem 1rem;
     background-color: #f8f8f8;
     overflow: scroll;
-    border: 1px solid #ccc;
-    border-radius: .25rem;
-}
-
-h1 {
-    line-height: 1.2;
-    padding-bottom: .25em;
-    border-bottom: 1px solid #eee;
-}
-
-h2 {
-    line-height: 1.225;
-    padding-bottom: .3em;
-    border-bottom: 1px solid #eee;
 }
 
 a {
-    color: #4183C4;
+    text-decoration: none;
+    color: inherit;
     
     white-space: pre-wrap;
     overflow-wrap: break-word;
@@ -53,26 +37,24 @@ a {
     hyphens: auto;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 img {
     max-width: 100%;
     height: auto;
-}
-
-figure {
-    text-align: center;
+    margin: auto;
 }
 
 figcaption {
     margin-top: 4px;
     font-style: italic;
-    text-align: left;
 }
 
 blockquote {
-    border: 1px solid #eee;
-    border-left: 4px solid rgb(68, 136, 102);
-    color: #555;
-    padding-left: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 hr {
@@ -91,30 +73,32 @@ hr {
 }
 
 #main table {
-    margin: 0;
+    margin: 15px 0;
     border-collapse: collapse;
-    border-spacing: 0;
     width: 100%;
-    overflow: auto;
-    break-inside: auto;
     padding: 0;
 }
 #main table tr {
-    border-top: 1px solid #888;
+    border-top: 1px solid #cccccc;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
-#main table tr:first-child { border-top: none; }
+#main table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
 #main table tr th {
     font-weight: bold;
-    border-bottom: 2px solid #888;
+    border: 1px solid #cccccc;
     text-align: left;
     margin: 0;
-    padding: 2px 8px;
+    padding: 6px 13px;
 }
 #main table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
     margin: 0;
-    padding: 2px 8px;
+    padding: 6px 13px;
 }
 #main table tr th :first-child, table tr td :first-child {
     margin: 0;
@@ -145,7 +129,6 @@ iframe {
         margin-right: 1in;
         margin-top: 0;
         padding: 0;
-        font-size: 12px;
     }
 
     pre { overflow-wrap: break-word; }
