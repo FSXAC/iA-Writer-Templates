@@ -3,27 +3,24 @@
 html {
     background-color: white;
     color: #222; 
-    /* In a perfect world... */
-    /* background-image: 
+    background-image: 
         linear-gradient(0deg, transparent 5em, rgba(255,0,0,.2) 0, transparent 5.1em), 
         linear-gradient(rgba(0,0,255,.3) 1px, transparent 0);
-    background-size: 100% 32.3px !important; */
+    background-size: 100% 25.5px !important;
 }
 html.night-mode { background-color: #111; color: #ccc; }
 
 body {
-    /* padding-left: 8px; */
-    /* padding-right: 1em; */
-    /* padding-top: 40px;
-    padding-bottom: 40px; */
-    padding: 0 1.5em;
+    padding-left: 8px;
+    padding-right: 1em;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-size: 22px;
-    /* font-family: MHDiary, cursive; */
-    font-family: 'Waiting for the Sunrise';
+    font-family: 'Waiting for the Sunrise', cursive;
     max-width: 800px;
     margin: auto;
-    /* margin-left: 10%;
-    border-left: 1px solid rgba(255, 0, 0, 0.3); */
+    margin-left: 10%;
+    border-left: 1px solid rgba(255, 0, 0, 0.3);
     line-height: 1.15;
 }
 
@@ -34,7 +31,7 @@ body p {
 
 h1 { margin-top: 18px; margin-bottom: 46px; }
 h2 { margin-top: 28px; margin-bottom: 53px; }
-h3 { margin-top: 29px; margin-bottom: 0; }
+h3 { margin-top: 29px; margin-bottom: 0; line-height: 1.0; }
 h4 { margin-top: 33px; margin-bottom: 0; }
 
 p code, mark {
